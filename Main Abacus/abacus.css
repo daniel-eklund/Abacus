@@ -1,0 +1,198 @@
+body {
+    background-color: wheat;
+    
+}
+
+#wrapper {
+    display: flex;
+    border: 10px solid #8c5c4d;
+    margin: 20% 0 0 0;
+}
+
+#space { 
+    border-top: 5px solid #8c5c4d;
+    margin-top: 0px;
+}
+
+#lessons {
+    border: 2px solid black;
+    width: 53px;
+    background-color: lightblue;
+    float: left;
+    margin-left: 10%;
+}
+
+#reset {
+    border: 2px solid black;
+    width: 37px;
+    background-color: lightblue;
+    float: right;
+}
+
+#abacusHtml {
+    float: left;    
+}
+
+#columnNumBar {
+    font-size: 25px;
+}
+
+.mouse_off, .bead:hover .mouse_on{
+    display:block
+ }
+ .mouse_on, .bead:hover .mouse_off{
+    display:none
+ }
+
+ .wall {
+     width: 25px;
+     float: left;
+ }
+
+ .column {
+     width: 48px;
+     height: 274px;
+     padding: 0;
+     float: left;
+     background-image: url("graphics/svgs/column.svg");
+     background-color: wheat;
+ }
+ 
+ .container {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: nowrap;
+     align-content: flex-start;
+ }
+
+ .beadContainerTop {
+     display: flex;
+     flex-direction: column;
+     align-content: flex-start;
+     margin-top: 48px;
+     width: 48px;
+     padding: 0;
+     position: relative;
+     margin-left: 4px;
+ }
+
+ .bead {
+     position: relative;
+     margin-bottom: 0;
+ }
+
+#resetButton {
+    margin-left: 10px;   
+}
+
+#abacus {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#spacer {
+    margin-bottom: 10px;
+}
+
+.levelButton {
+    background: lightgray;
+    border-width: 2px;
+    margin-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.butDiv {
+    margin-left: 44.5%;
+    border-color: #643F3F;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 5px;
+    width: 125px;
+    background-color: #D8CFB5;
+    padding-left: 8px;
+    margin-top: -15px;
+}
+
+#next {
+    margin-top: 2px;
+}
+
+#tab {
+    border-color: #643F3F;
+    border-width: 5px;
+    border-style: solid;
+    width: 170px;
+    margin-top: -80px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    height: 100px;
+    padding: 6px;
+    background-color: #D8CFB5;
+}
+
+#container {
+    margin-left: 38%;
+}
+
+#innerTab {
+    margin-top: -25px;
+}
+
+#objectives {
+    margin-top: -15px;
+    margin-left: -15px;
+}
+
+#finished {
+    border-color: darkslategray;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #4F4949;
+    border-radius: 1px;
+}
+
+#current {
+    border-color: #F35757;
+    border-width: 3px;
+    border-style: solid;
+    background-color: lightgray;
+    border-radius: 1px;
+}
+
+.border {
+    border-color: #F35757;
+    border-width: 7px;
+    border-style: solid;
+    border-radius: 1px;
+}
+
+.bborder {
+   background-color: #F35757;
+   border-color: #F35757;
+   border-width: 3px;
+   border-style: solid;
+   border-radius: 6px;
+   border-top-width: 0px;
+   width: 40px;
+   margin-left: -3px;
+   height: 20px;
+}
+
+.noBorder {
+    border-width: 0px;
+}
+
+#helper {
+    border-color: #643F3F;
+    border-width: 5px;
+    border-style: solid;
+    width: 170px;
+    height: 300px;
+    margin-top: 5px;
+    margin-left: 66%;
+    border-radius: 5px;
+    padding: 6px;
+    background-color: #FFFFE3;
+}
